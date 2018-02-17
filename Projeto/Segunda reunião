@@ -1,0 +1,34 @@
+Requisitos Funcionais:
+1 - Relacionados com as Contas dos utilizadores.
+- Autenticação de usuário/senha
+- Como utilizador sem registo, poder
+criar uma conta
+- Cadastro de Usuario
+- Fazer logout da aplicaçao.
+
+2 - Relacionados com as Casas cadastradas:
+- Adicionar/Remover foto
+- Adicionar/remover casa
+- Ver lista de Casas
+- Editar Informações
+
+3 - Relacionados a Configuração:
+- Definir dados
+- Liberacao de espacos para outras casas.
+
+
+Requisitos não funcionais:
+ 1 - Do Sistema:
+ - A aplicação deverá funcionar no sistema Android, versão superior a 4.0.
+ - Garantiar o funcionamento da aplicação com dados móveis/conexão com internet.
+ - Layout de tela Dinâmico
+ - Inicializacao da aplicação com uma tela Splash Screen (Tela de carregamento Inicial).
+ - Tramento de telas em Screen Orientation: vertical , para a nao destruicao de Activitys.
+ - Armazenamento de dados e autenticacao de usuarios com Firebase.
+ - Verificao de conexao com internet
+
+ 
+ 2 - Segurança:
+ - Obrigatoriedade de autenticação.
+ - Não permitir ver informações privadas de outros utilizadores.
+ - Tratamento de possiveis erros como entradas do usuario invalidas.
